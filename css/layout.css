@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    scrollbar-face-color: #cec69f;
+    scrollbar-highlight-color: ;
+    scrollbar-3dlight-color: ;
+    scrollbar-darkshadow-color: ;
+    scrollbar-shadow-color: ;
+    scrollbar-arrow-color: ;
+    scrollbar-track-color: #fef9e7;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container
+{
+    top: 0px;
+    margin-left: 163px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 700px;
+}
+
+#container h1,h3,h4,h5,h6
+{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+#header
+{
+    top: 50px;
+    position: static;
+    padding-left: 20px;
+    height: 75px;
+    text-align: left;
+    padding-top: 25px;
+}
+
+#header2
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 65px;
+    float: none;
+    margin-left: 550px;
+}
+
+#header h1 {
+    margin: 0;
+    float: none;
+}
+
+#navigation
+{
+    padding-top: 10px;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    width: 660px;
+    padding-bottom: 5px;
+}
+
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li a
+{
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-right-style: none;
+    border-right-color: #fff;
+}
+
+#navigation li a:hover {
+}
+
+#content-container
+{
+    float: left;
+    width: 1000px;
+}
+
+#section-navigation
+{
+    width: 700px;
+    padding: 0px 0px;
+    display: inline;
+}
+
+#section-navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#section-navigation ul li
+{
+    margin: 0 0 1em;
+    padding: 0;
+    list-style-type: none;
+}
+
+#address_style
+{
+    font-size: 10pt;
+    color: #483600;
+
+}
+
+#content
+{
+    width: 700px;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+
+#content h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-style: normal;
+    margin-top: 15px;
+    margin-right: 0;
+    padding-bottom: 0px;
+}
+#content h4 {
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    font-style: normal;
+    padding-top: 10px;
+}
+#content h5 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+#content p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#subnavigation
+{
+    font-size: 10pt;
+    color: #483600;
+    width: 700px;
+    height: 20px;
+}
+
+#contentblock1 {
+    font-size: 10pt;
+    float: left;
+    width: 310px;
+    margin-top: 10;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-style: normal;
+}
+#contentblock1 li {
+    font-size: 1.0em;
+}
+#contentblock1 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    font-style: normal;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+#contentblock1 h5 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    padding-top: 0px;
+}
+
+#contentblock1 h6 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+#contentblock1 p.stylegreen {
+    color: #095F1B;
+    margin-left: 20px;
+}
+
+#contentblock2
+{
+    font-size: 10pt;
+    float: left;
+    width: 330px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    font-style: normal;
+
+}
+#contentblock2 img
+{
+    border: 5px solid #FFFFFF;
+    margin: 10px;
+}
+#contentblock3
+{
+    /*full size block*/
+    font-size: 10pt;
+    float: left;
+    width: 660px;
+    margin-top: 10;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-style: normal;
+}
+#contentblock3 h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: .8em;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contentblock3 img.facilities {
+    border: 5px solid #FFFFFF;
+
+}
+
+#contentblock3 img.instructors {
+    vertical-align: top;
+    padding-top: 0px;
+    margin-top: 0px;
+
+
+
+
+}
+
+#contentblock4
+{
+    /*board members image block*/
+    font-size: 10pt;
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: normal;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+}
+
+
+#aside
+{
+    float: right;
+    width: 200px;
+    padding: 20px 0;
+    margin: 0 20px 0 0;
+    display: inline;
+}
+
+#aside h3 { margin: 0; }
+
+#footer
+{
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 660px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 10px;
+    position: static;
+    margin-left: 163px;
+    margin-top: 30px;
+}
+#container {
+
+}
+
+#mainimage
+{
+    width: 700px;
+    height: 250px;
+    top: 250px;
+
+}
+
+
+/* ######### CSS for Indented CSS Tabs. Remove if not using ######### */
+
+
+.indentmenu{
+    width: 100%; /*leave this value as is in most cases*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+    border-right-width: thin;
+    border-right-style: solid;
+    border-right-color: #FEF9E6;
+}
+
+.indentmenu ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    /* width: 80%; width of menu*/
+    /*border-top: 1px solid navy; /*navy border*/
+    background: black url(indentbg.gif) center center repeat-x;
+}
+
+.indentmenu ul li{
+    display: inline;
+}
+
+.indentmenu ul li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-right-color: #FEF9E6;
+    border-right-width: thin;
+    border-right-style: solid;
+}
+
+.indentmenu ul li a:visited{
+    color: #FFFFFF;
+    border-right-color: #FEF9E6;
+    border-right-width: thin;
+    border-right-style: solid;
+}
+
+.indentmenu ul li a.selected{
+    color: #483600 !important;
+    padding-top: 5px; /*shift text down 1px*/
+    padding-bottom: 5px;
+    background: black url(indentbg2.gif) center center repeat-x;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    border-right-color: #FEF9E6;
+    border-right-width: thin;
+    border-right-style: solid;
+}
+
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+    /*border: 1px solid gray;*/
+    width: 700px;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+.tabcontent{
+    display:none;
+}
+
+@media print {
+    .tabcontent {
+        display:block !important;
+    }
+}

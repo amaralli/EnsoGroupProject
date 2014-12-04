@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="379c1681-b357-412a-9e2d-815dadd91f75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aboutenso.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/martialarts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/otherarts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schedules.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tabcontent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuition.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
     </list>
     <ignored path="EnsoGroupProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tuition.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tuition.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.394102" vertical-offset="6162" max-vertical-offset="8160">
+            <state vertical-scroll-proportion="204.875" vertical-offset="6162" max-vertical-offset="8160">
               <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.375" vertical-offset="1542" max-vertical-offset="2685">
+              <caret line="113" column="32" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07785467" vertical-offset="0" max-vertical-offset="6165">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -63,6 +75,7 @@
         <option value="$PROJECT_DIR$/aboutenso.html" />
         <option value="$PROJECT_DIR$/otherarts.html" />
         <option value="$PROJECT_DIR$/martialarts.html" />
+        <option value="$PROJECT_DIR$/css/layout.css" />
       </list>
     </option>
   </component>
@@ -299,14 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/tabcontent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.98512685" vertical-offset="1244" max-vertical-offset="2460">
@@ -340,14 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.0" vertical-offset="1566" max-vertical-offset="2685">
-          <caret line="154" column="44" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otherarts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7104558" vertical-offset="0" max-vertical-offset="5700">
@@ -369,8 +366,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tuition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.394102" vertical-offset="6162" max-vertical-offset="8160">
+        <state vertical-scroll-proportion="204.875" vertical-offset="6162" max-vertical-offset="8160">
           <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.375" vertical-offset="1542" max-vertical-offset="2685">
+          <caret line="113" column="32" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07785467" vertical-offset="0" max-vertical-offset="6165">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
