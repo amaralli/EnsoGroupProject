@@ -1,14 +1,21 @@
 @charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Karla:700,400,400italic);
 /* CSS Document */
 
 html {
-    scrollbar-face-color: #cec69f;
-    scrollbar-highlight-color: ;
-    scrollbar-3dlight-color: ;
-    scrollbar-darkshadow-color: ;
-    scrollbar-shadow-color: ;
-    scrollbar-arrow-color: ;
-    scrollbar-track-color: #fef9e7;
+    /*scrollbar-face-color: #cec69f;*/
+    /*scrollbar-highlight-color: ;*/
+    /*scrollbar-3dlight-color: ;*/
+    /*scrollbar-darkshadow-color: ;*/
+    /*scrollbar-shadow-color: ;*/
+    /*scrollbar-arrow-color: ;*/
+    /*scrollbar-track-color: #fef9e7;*/
+}
+
+body {
+    font-family: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #EAE1C0;
+    color: #483A3A;
 }
 
 p {
@@ -17,7 +24,7 @@ p {
 }
 
 
-#container
+#contentContainer
 {
     top: 0px;
     margin-left: 163px;
@@ -27,7 +34,7 @@ p {
     width: 700px;
 }
 
-#container h1,h3,h4,h5,h6
+#contentContainer h1,h3,h4,h5,h6
 {
     margin: 0 0 0 0;
     padding: 0;
@@ -36,11 +43,11 @@ p {
 #header
 {
     top: 50px;
-    position: static;
     padding-left: 20px;
-    height: 75px;
+    height: 45px;
     text-align: left;
     padding-top: 25px;
+    background-color: #907860;
 }
 
 #header2
@@ -56,6 +63,11 @@ p {
 #header h1 {
     margin: 0;
     float: none;
+}
+
+#navBar {
+    background-color: #B14052;
+    float:left;
 }
 
 #navigation
@@ -97,11 +109,11 @@ p {
 #navigation li a:hover {
 }
 
-#content-container
-{
-    float: left;
-    width: 1000px;
-}
+/*#content-container*/
+/*{*/
+/*float: left;*/
+/*width: 1000px;*/
+/*}*/
 
 #section-navigation
 {
@@ -126,7 +138,7 @@ p {
 #address_style
 {
     font-size: 10pt;
-    color: #483600;
+    color: #483A3A;
 
 }
 
@@ -141,8 +153,11 @@ p {
     padding-bottom: 15px;
 }
 
+#ensoMainImage {
+    float:left;
+}
+
 #content h2 {
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 400;
     font-size: 1.5em;
     font-style: normal;
@@ -152,20 +167,17 @@ p {
 }
 #content h4 {
     margin: 0 0 0 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1em;
     font-style: normal;
     padding-top: 10px;
 }
 #content h5 {
-    font-family: "Times New Roman", Times, serif;
     font-size: 1.1em;
     font-weight: normal;
 }
 
 #content p {
-    font-family: "Times New Roman", Times, serif;
     font-size: 1.1em;
     font-style: normal;
     padding-top: 5px;
@@ -175,7 +187,7 @@ p {
 #subnavigation
 {
     font-size: 10pt;
-    color: #483600;
+    color: #483A3A;
     width: 700px;
     height: 20px;
 }
@@ -184,17 +196,16 @@ p {
     font-size: 10pt;
     float: left;
     width: 310px;
-    margin-top: 10;
+    margin-top: 10px;
     margin-right: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-left: 20px;
     font-style: normal;
 }
 #contentblock1 li {
     font-size: 1.0em;
 }
-#contentblock1 h4 {
-    font-family: Arial, Helvetica, sans-serif;
+#contentblock1 h4 {;
     font-weight: bold;
     font-size: 1em;
     font-style: normal;
@@ -203,14 +214,12 @@ p {
 }
 
 #contentblock1 h5 {
-    font-family: "Times New Roman", Times, serif;
     font-size: 1.1em;
     font-weight: normal;
     padding-top: 0px;
 }
 
 #contentblock1 h6 {
-    font-family: "Times New Roman", Times, serif;
     font-size: 1.1em;
     font-weight: normal;
     padding-top: 3px;
@@ -219,7 +228,7 @@ p {
 }
 
 #contentblock1 p.stylegreen {
-    color: #095F1B;
+    color: #483A3A;
     margin-left: 20px;
 }
 
@@ -227,7 +236,7 @@ p {
 {
     font-size: 10pt;
     float: left;
-    width: 330px;
+    /*width: 330px;*/
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 0px;
@@ -242,6 +251,7 @@ p {
 #contentblock3
 {
     /*full size block*/
+    background-color: #8FB98B;
     font-size: 10pt;
     float: left;
     width: 660px;
@@ -250,9 +260,9 @@ p {
     margin-bottom: 0px;
     margin-left: 20px;
     font-style: normal;
+    text-align: center;
 }
 #contentblock3 h5 {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: .8em;
     font-style: normal;
@@ -309,7 +319,6 @@ p {
     padding-right: 20px;
     padding-left: 20px;
     width: 660px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
     padding-bottom: 10px;
     position: static;
@@ -333,9 +342,8 @@ p {
 
 
 .indentmenu{
-    width: 100%; /*leave this value as is in most cases*/
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 13px;
+    width: 100%; leave: this value as is in most cases
+font-size: 13px;
     font-weight: bold;
     border-right-width: thin;
     border-right-style: solid;
@@ -348,7 +356,7 @@ p {
     float: left;
     /* width: 80%; width of menu*/
     /*border-top: 1px solid navy; /*navy border*/
-    background: black url(indentbg.gif) center center repeat-x;
+    background: #8FB98B;
 }
 
 .indentmenu ul li{
@@ -379,8 +387,6 @@ p {
     color: #483600 !important;
     padding-top: 5px; /*shift text down 1px*/
     padding-bottom: 5px;
-    background: black url(indentbg2.gif) center center repeat-x;
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: bold;
     border-right-color: #FEF9E6;
     border-right-width: thin;
