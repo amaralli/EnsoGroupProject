@@ -30,7 +30,7 @@ body {
     padding: 1em;
 }
 
-#welcome {
+#welcome, #about-us {
     background-color: #8FB98B;
     border-radius: 20px;
     padding:1em;
@@ -51,6 +51,59 @@ a {
 #UpcomingEvents {
     display: none;
 }
+
+
+/*employee table code*/
+.sort-ui, .filter-ui {
+    margin-bottom: 1em;
+}
+
+.cards {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 0.5em;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+    border-radius: 5px;
+    clear: both;
+}
+
+.card img {
+    float: left;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.card .details {
+    padding-left: 170px;
+}
+
+.card .name,
+.card .title,
+.card p {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}
+
+.card .title {
+    font-size: 150%;
+}
+
+.card  {
+    font-size: 125%;
+}
+
+
+/*end employee table code*/
+
+
+
+
 /*p {*/
     /*margin: 0;*/
     /*padding: 0;*/

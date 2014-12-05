@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD Xhtml 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>About Enso Center</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
 
     <link href="css/layout.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
@@ -25,9 +27,14 @@
          ***********************************************/
     </script>
 </head>
-<body>
-<div id="container">
-<div id="header">
+<body ng-app="AddressBook" ng-controller="AddressController" class="container-fluid">
+        <div id="header" class="row">
+            <div class="col-sm-12">
+                <p><a href="mailto:contact@ensocenter.org">contact@ensocenter.org</a> |
+                <a href="tel:4258690276">425.869.0276</a></p>
+            </div>
+        </div>
+<!-- <div id="header">
     <table border="0" height="100%" width="100%">
         <tbody>
         <tr>
@@ -38,9 +45,9 @@
                     <tr>
                         <td>8708 196th Ave NE</td>
                         <td>
-                            <script type="text/javascript"><!--
+                            <script type="text/javascript">
                             var uwhwbmi = ['"','a','m','s','>','e','e','n','c','a','t','a','l','s','c','c','@','g','a','c','"','e','c','"','r','o',':','o','a','s','r','.',' ','g','n','t','r','=','l','<','o','i','@','t','t','i','c','c','a','t','m','o','e','<','r','=','/','h','.','n','n','o','a','>','o','n','l','e','s','e','e','t','o',' ','"','f','e','r','n','t'];var ygmilbm = [52,10,9,44,53,70,67,68,66,58,60,42,51,43,16,21,23,75,49,54,46,29,28,38,36,35,15,17,78,26,4,34,2,37,56,57,71,7,41,0,73,11,61,69,31,50,59,40,1,13,48,55,47,76,74,45,77,3,72,18,30,14,20,79,65,25,12,24,64,5,62,19,27,39,8,6,32,33,63,22];var vqsrrfh= new Array();for(var i=0;i<ygmilbm.length;i++){vqsrrfh[ygmilbm[i]] = uwhwbmi[i]; }for(var i=0;i<vqsrrfh.length;i++){document.write(vqsrrfh[i]);}
-                            // --></script>
+                            </script>
                             <noscript>Please enable Javascript to see the email address</noscript>
                             <br />
                         </td>
@@ -55,18 +62,88 @@
         </tr>
         </tbody>
     </table>
-</div>
-<div id="navigation">
-    <ul>
-        <li><a href="index.html" target="_self"><img src="images_layout/menu_home.png" alt="Welcome to Enso Center!" border="0" height="28" width="45" /></a></li>
-        <li><a href="aboutenso.html" target="_self"><img src="images_layout/menu_aboutenso.png" alt="About Enso Center" border="0" height="28" width="85" /></a></li>
-        <li><a href="martialarts.html" target="_self"><img src="images_layout/menu_martialarts.png" alt="Martial Arts" border="0" height="28" width="80" /></a></li>
-        <li><a href="otherarts.html" target="_self"><img src="images_layout/menu_otherarts.png" alt="Other Arts" border="0" height="28" width="77" /></a></li>
-        <li><a href="tuition.html" target="_self"><img src="images_layout/menu_tuition.png" alt="Tuition Rates" border="0" height="28" width="51" /></a></li>
-        <li><a href="schedules.html" target="_self"><img src="images_layout/menu_schedules.png" alt="Class Schedules and Locations" border="0" height="28" width="109" /></a></li>
-    </ul>
-</div>
-<div id="content"> <img src="images_layout/mainimg_aboutenso.jpg" height="250" width="698" />
+</div> -->
+        <div id="navigationBar" class="row text-center">
+                <div class="col-sm-2">
+                    <a href="index.html" target="_self">Home</a>
+                </div>
+
+                <div class="col-sm-2">
+                    <a href="aboutenso.html" target="_self">About Enso</a>
+                </div>
+
+                <div class="col-sm-2">
+                    <a href="martialarts.html" target="_self">Martial Arts</a>
+                </div>
+
+                <div class="col-sm-2">
+                    <a href="otherarts.html" target="_self">Other Arts</a>
+                </div>
+
+                <div class="col-sm-2">
+                    <a href="tuition.html" target="_self">Tuition</a>
+                </div>
+
+                <div class="col-sm-2">
+                    <a href="schedules.html" target="_self">Schedules</a>
+                </div>
+
+        </div>
+
+        <div id= "mainImage" class="row">
+            <div class="col-sm-12">
+                <img src="images_layout/mainimg_aboutenso.jpg" height="100%" width="100%">
+            </div>
+        </div>
+        <div id="about-us">
+            <h2>About Us</h2>
+            <p>Enso is an ancient, international symbol of inner strength, harmony, community, and peace. It symbolizes a commitment to personal growth through body and mind balance, discipline, and practice. Enso comes from the Japanese language and literally means an "open" circle.
+            Enso Center has been teaching martial arts and international arts for 25+ years!</p>
+            <p>Our mission is to promote awareness, understanding, and harmony internally, interpersonally, culturally, ecologically and ideologically.
+            Enso Center encourages the growth of strong
+            sustainable communities through the study of 
+            martial arts,nature,languages, literacy, 
+            communication, and fine arts.</p>
+        </div>
+        <header class="page-title">
+            <h1>Our Employees</h1>
+        </header>
+        <section>
+            <div class="sort-ui">
+                <span>Sort By: </span>
+                <div class="btn-group">
+
+                    <button type="button" class="btn btn-default" ng-click="sortBy('lastName')" ng-class="{sorted: isSortedBy('lastName')}">Last Name</button>
+                    <button type="button" class="btn btn-default" ng-click="sortBy('firstName')" ng-class="{sorted: isSortedBy('firstName')}">First Name</button>
+                    <button type="button" class="btn btn-default" ng-click="sortBy('department')" ng-class="{sorted: isSortedBy('department')}">Department</button>
+                </div>
+            </div>
+            <!--Filters the employees based off of what is typed in the search box-->
+            <div class="filter-ui">
+                <input type="text" class="form-control" placeholder="Search..." ng-model="searchString">
+            </div>
+        </section>
+
+            <section>
+                <ul class="cards">
+                    <!--Creates a profile for each employee-->
+                    <li class="card" ng-repeat="employee in filteredEmployees = (employees | filter: searchString | orderBy : sortCol : sortReverse)"> 
+                        <img ng-src="{{employee.picUrl}}" alt="Picture of {{employee.firstName}} {{employee.lastName}}">
+                        <div class="details">
+                            <h2 class="name">{{employee.firstName}} {{employee.lastName}}</h2>
+                            <p class="title">{{employee.title}}</p>
+                            <!--creates a link for the email of employee if the employee has one-->
+                            <p class="desc" ng-if="employee.desc != undefined">
+                                {{employee.desc}}
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>        
+
+
+
+<!-- <div id="content"> <img src="images_layout/mainimg_aboutenso.jpg" height="250" width="698" />
 <div id="pettabs" class="indentmenu">
     <ul>
         <li><a href="#" rel="about" class="selected">About
@@ -788,7 +865,7 @@
                         provide comments and feedback to
                         <script type="text/javascript"><!--
                         var xwagwqn = ['a','f','s','r','e','a','i','t','a','n','n','t','/','r','=','r','m','e','t','a','>','g','"','<','b','c','s','@','e','w',' ','=','c','l','a','e','@','e','m','<','o','"','.','e','o','e','h','.','n','a','e','r','e','>','s','e','w','o','e','c','s','o','s','t','b','r','e','m','g','a','m',':','o',' ','l','"','n','r','i','l','r','s','"','t'];var eaxgauz = [51,6,61,75,66,60,11,73,82,72,67,22,81,78,47,38,9,17,13,44,83,79,40,80,18,70,21,25,5,16,2,7,42,53,10,34,65,49,50,0,77,8,76,31,69,23,3,36,32,20,26,35,57,55,45,63,56,37,74,30,46,14,68,62,58,64,71,59,39,1,19,15,29,41,43,54,27,24,52,12,4,28,48,33];var fuinbst= new Array();for(var i=0;i<eaxgauz.length;i++){fuinbst[eaxgauz[i]] = xwagwqn[i]; }for(var i=0;i<fuinbst.length;i++){document.write(fuinbst[i]);}
-                        // --></script>
+                        // </script>
                     <noscript>Please enable Javascript to see the email address</noscript>
                     </p>
                     <p class="style1" align="center">All material
@@ -798,5 +875,8 @@
         </tr>
         </tbody>
     </table>
-</div>
+</div> -->
+    <script src="js/employees.js"></script>
+    <script src="js/app.js"></script>
+
 </body></html>
