@@ -112,9 +112,14 @@ var ensoEmployees = [
         title:'Instructor/Archery',
         picUrl:'images/instructors/jay.jpg',
         desc:'Jay St. Charles teaches the Enso Center Archery Program. Jay has spent his lifetime as a teacher, coach and tackle maker in the broad world of archery, with over 40 years as an archery professional.'
-
-    }
-
-
-
+    },
+    {
+        firstName:'Beverly',
+        lastName:'Corwin',
+        title:'Founding Member',
+        picUrl:'images/board/bev.jpg',
+        desc:'Beverly Corwin has studied the art of Aikido in Japan and the US. She began teaching in the Seattle Area, as a principal Aikido instructor at Enso Dojo.'    }
 ];
+
+
+

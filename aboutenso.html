@@ -92,7 +92,7 @@
 
         <div id= "mainImage" class="row">
             <div class="col-sm-12">
-                <img src="images_layout/mainimg_aboutenso.jpg" height="100%" width="100%">
+                <img src="images/about-enso-banner.jpg" height="600px" width="1920px">
             </div>
         </div>
         <div id="about-us">
@@ -106,7 +106,7 @@
             communication, and fine arts.</p>
         </div>
         <header class="page-title">
-            <h1>Our Employees</h1>
+            <h1>Meet Our Employees</h1>
         </header>
         <section>
             <div class="sort-ui">
@@ -115,7 +115,7 @@
 
                     <button type="button" class="btn btn-default" ng-click="sortBy('lastName')" ng-class="{sorted: isSortedBy('lastName')}">Last Name</button>
                     <button type="button" class="btn btn-default" ng-click="sortBy('firstName')" ng-class="{sorted: isSortedBy('firstName')}">First Name</button>
-                    <button type="button" class="btn btn-default" ng-click="sortBy('department')" ng-class="{sorted: isSortedBy('department')}">Department</button>
+                    <button type="button" class="btn btn-default" ng-click="sortBy('title')" ng-class="{sorted: isSortedBy('title')}">Position</button>
                 </div>
             </div>
             <!--Filters the employees based off of what is typed in the search box-->
@@ -125,9 +125,9 @@
         </section>
 
             <section>
-                <ul class="cards">
+                <ul class="cards" id="cards">
                     <!--Creates a profile for each employee-->
-                    <li class="card" ng-repeat="employee in filteredEmployees = (employees | filter: searchString | orderBy : sortCol : sortReverse)"> 
+                    <li class="card" id="card" ng-repeat="employee in filteredEmployees = (employees | filter: searchString | orderBy : sortCol : sortReverse)"> 
                         <img ng-src="{{employee.picUrl}}" alt="Picture of {{employee.firstName}} {{employee.lastName}}">
                         <div class="details">
                             <h2 class="name">{{employee.firstName}} {{employee.lastName}}</h2>
