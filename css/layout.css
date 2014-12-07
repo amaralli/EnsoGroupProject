@@ -45,19 +45,16 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
+#footer {
+    background-color: #A89D89;
 
-#selectViewRow {
+}
+
+/*home page only features*/
+.panel-group {
     padding: 1em;
 }
-
-#Notices {
-    display: none;
-}
-
-#UpcomingEvents {
-    display: none;
-}
-
+/*end home page only features*/
 
 /*employee table code*/
 .sort-ui, .filter-ui {
