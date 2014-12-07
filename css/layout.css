@@ -36,18 +36,22 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
+h2 {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 750px) {
     #welcome {
         margin: 1em;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     body {
-
+        font-size: 18px;
     }
 
-    
+
 }
 
 /*navigation bar*/
