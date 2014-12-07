@@ -12,9 +12,48 @@ body {
     background-color: #A89D89;
 }
 
+<<<<<<< HEAD
 #navigationBar {
     color: #C3C7AD;
 
+=======
+#mainImage {
+    padding: 1em;
+}
+
+#welcome, #about-us, #age-requirement {
+    background-color: #8FB98B;
+    border-radius: 20px;
+    padding:1em;
+}
+
+a {
+    color: #C3C7AD;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+
+#footer {
+    background-color: #A89D89;
+
+}
+
+@media screen and (max-width: 750px) {
+    #welcome {
+        margin: 1em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+
+    }
+
+    
+>>>>>>> df60c03aa69192c7ea00ee04c057d45e69a81ce2
 }
 
 /*navigation bar*/
@@ -45,29 +84,13 @@ body {
 }
 /*end navigation bar*/
 
-#mainImage {
-    padding: 1em;
-}
-
-#welcome, #about-us, #age-requirement {
-    background-color: #8FB98B;
-    border-radius: 20px;
-    padding:1em;
-}
-
-a {
-    color: #C3C7AD;
-}
-
-a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-}
 
 
-#footer {
-    background-color: #A89D89;
 
-}
+
+
+
+
 
 /*home page only features*/
 .panel-group {
