@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>About Enso Center</title>
 
@@ -60,7 +61,6 @@
             </nav>
         </div>
         <div id="content">
-
             <div class="row">    
                 <div id= "mainImage" class="row">
                     <div class="col-sm-12">
@@ -533,6 +533,11 @@
                         <button type="button" class="btn btn-default" ng-click="sortBy('title')" ng-class="{sorted: isSortedBy('title')}">Position</button>
                     </div>
                 </div>
+
+                <!--Filters the employees based off of what is typed in the search box-->
+                <div class="filter-ui">
+                    <input type="text" class="form-control" placeholder="Search..." ng-model="searchString">
+                </div>
             </section>
 
             <section>
@@ -548,29 +553,9 @@
                                 {{employee.desc}}
                             </p>
                         </div>
-                    </div>
-                    <!--Filters the employees based off of what is typed in the search box-->
-                    <div class="filter-ui">
-                        <input type="text" class="form-control" placeholder="Search..." ng-model="searchString">
-                    </div>
-                </section>
-
-                <section>
-                    <ul class="cards" id="cards">
-                        <!--Creates a profile for each employee-->
-                        <li class="card" id="card" ng-repeat="employee in filteredEmployees = (employees | filter: searchString | orderBy : sortCol : sortReverse)">
-                            <img ng-src="{{employee.picUrl}}" alt="Picture of {{employee.firstName}} {{employee.lastName}}">
-                            <div class="details">
-                                <h2 class="name">{{employee.firstName}} {{employee.lastName}}</h2>
-                                <p class="title">{{employee.title}}</p>
-                                <!--creates a link for the email of employee if the employee has one-->
-                                <p class="desc" ng-if="employee.desc != undefined">
-                                    {{employee.desc}}
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
+                    </li>
+                </ul>
+            </section>      
         </div>  
 
 
