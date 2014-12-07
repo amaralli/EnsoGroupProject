@@ -2,16 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:700,400,400italic);
 /* CSS Document */
 
-html {
-    /*scrollbar-face-color: #cec69f;*/
-    /*scrollbar-highlight-color: ;*/
-    /*scrollbar-3dlight-color: ;*/
-    /*scrollbar-darkshadow-color: ;*/
-    /*scrollbar-shadow-color: ;*/
-    /*scrollbar-arrow-color: ;*/
-    /*scrollbar-track-color: #fef9e7;*/
-}
-
 body {
     font-family: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #EAE1C0;
@@ -22,9 +12,33 @@ body {
     background-color: #A89D89;
 }
 
-#navigationBar {
+/*navigation bar*/
+.navbar-default .navbar-brand {
+    color: #C3C7AD;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFFFFF;
+}
+
+.navbar-default {
     background-color: #B14052;
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: #C3C7AD;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-default > button {
+    float: left;
+}
+/*end navigation bar*/
 
 #mainImage {
     padding: 1em;
