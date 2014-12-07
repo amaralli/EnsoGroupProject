@@ -8,7 +8,6 @@
     <style type="text/css">
         <!--
         body {
-            background-image: url(images_layout/bg.jpg);
             background-color: #FFEFCB;
             margin-left: 0px;
             margin-top: 0px;
@@ -89,40 +88,40 @@
                 </div>
 
         </div>
-
-        <div id= "mainImage" class="row">
-            <div class="col-sm-12">
-                <img src="images/about-enso-banner.jpg" height="600px" width="1920px">
-            </div>
-        </div>
-        <div id="about-us">
-            <h2>About Us</h2>
-            <p>Enso is an ancient, international symbol of inner strength, harmony, community, and peace. It symbolizes a commitment to personal growth through body and mind balance, discipline, and practice. Enso comes from the Japanese language and literally means an "open" circle.
-            Enso Center has been teaching martial arts and international arts for 25+ years!</p>
-            <p>Our mission is to promote awareness, understanding, and harmony internally, interpersonally, culturally, ecologically and ideologically.
-            Enso Center encourages the growth of strong
-            sustainable communities through the study of 
-            martial arts,nature,languages, literacy, 
-            communication, and fine arts.</p>
-        </div>
-        <header class="page-title">
-            <h1>Meet Our Employees</h1>
-        </header>
-        <section>
-            <div class="sort-ui">
-                <span>Sort By: </span>
-                <div class="btn-group">
-
-                    <button type="button" class="btn btn-default" ng-click="sortBy('lastName')" ng-class="{sorted: isSortedBy('lastName')}">Last Name</button>
-                    <button type="button" class="btn btn-default" ng-click="sortBy('firstName')" ng-class="{sorted: isSortedBy('firstName')}">First Name</button>
-                    <button type="button" class="btn btn-default" ng-click="sortBy('title')" ng-class="{sorted: isSortedBy('title')}">Position</button>
+        <div id="content">
+            <div id= "mainImage" class="row">
+                <div class="col-sm-12">
+                    <img src="images/about-enso-banner.jpg" height="100%" width="100%">
                 </div>
             </div>
-            <!--Filters the employees based off of what is typed in the search box-->
-            <div class="filter-ui">
-                <input type="text" class="form-control" placeholder="Search..." ng-model="searchString">
+            <div id="about-us">
+                <h2>About Us</h2>
+                <p>Enso is an ancient, international symbol of inner strength, harmony, community, and peace. It symbolizes a commitment to personal growth through body and mind balance, discipline, and practice. Enso comes from the Japanese language and literally means an "open" circle.
+                Enso Center has been teaching martial arts and international arts for 25+ years!</p>
+                <p>Our mission is to promote awareness, understanding, and harmony internally, interpersonally, culturally, ecologically and ideologically.
+                Enso Center encourages the growth of strong
+                sustainable communities through the study of 
+                martial arts,nature,languages, literacy, 
+                communication, and fine arts.</p>
             </div>
-        </section>
+            <header class="page-title">
+                <h1>Meet Our Employees</h1>
+            </header>
+            <section>
+                <div class="sort-ui">
+                    <span>Sort By: </span>
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default" ng-click="sortBy('lastName')" ng-class="{sorted: isSortedBy('lastName')}">Last Name</button>
+                        <button type="button" class="btn btn-default" ng-click="sortBy('firstName')" ng-class="{sorted: isSortedBy('firstName')}">First Name</button>
+                        <button type="button" class="btn btn-default" ng-click="sortBy('title')" ng-class="{sorted: isSortedBy('title')}">Position</button>
+                    </div>
+                </div>
+                <!--Filters the employees based off of what is typed in the search box-->
+                <div class="filter-ui">
+                    <input type="text" class="form-control" placeholder="Search..." ng-model="searchString">
+                </div>
+            </section>
 
             <section>
                 <ul class="cards" id="cards">
@@ -139,7 +138,8 @@
                         </div>
                     </li>
                 </ul>
-            </section>        
+            </section>      
+        </div>  
 
 
 

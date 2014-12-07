@@ -440,14 +440,14 @@ a:link, a:visited, a:hover, a:active {
 /* ######### CSS for Indented CSS Tabs. Remove if not using ######### */
 
 
-/*.indentmenu{*/
-    /*width: 100%; leave: this value as is in most cases*/
-/*font-size: 13px;*/
-    /*font-weight: bold;*/
-    /*border-right-width: thin;*/
-    /*border-right-style: solid;*/
-    /*border-right-color: #FEF9E6;*/
-/*}*/
+/*.indentmenu{
+    width: 100%; /*leave: this value as is in most cases*/
+/*font-size: 13px;
+    font-weight: bold;
+    border-right-width: thin;
+    border-right-style: solid;
+    border-right-color: #FEF9E6;
+}*/
 
 /*.indentmenu ul{*/
     /*margin: 0;*/
@@ -493,19 +493,19 @@ a:link, a:visited, a:hover, a:active {
 /*}*/
 
 
-/*.tabcontentstyle{ *//*style of tab content oontainer*/
-    /*border: 1px solid gray;*/
+/*.tabcontentstyle{ /*style of tab content oontainer*/
+/*    border: 1px solid gray;*/
     /*width: 700px;*/
     /*margin-bottom: 1em;*/
     /*padding: 10px;*/
 /*}*/
 
-/*.tabcontent{*/
-    /*display:none;*/
-/*}*/
-
-/*@media print {*/
-    /*.tabcontent {*/
-        /*display:block !important;*/
-    /*}*/
-/*}*/
+/*.tabcontent{
+    display:none;
+}
+*/
+/*@media print {
+    .tabcontent {
+        display:block !important;
+    }
+}*/
