@@ -32,6 +32,10 @@ body {
     padding:1em;
 }
 
+#about-us {
+    margin-top: 20px;
+}
+
 a {
     color: #C3C7AD;
 }
@@ -114,17 +118,26 @@ h2 {
 }
 /*end home page only features*/
 
+#cherry-blossom {
+    margin-bottom: 1em;
+}
+
+
 /*employee table code*/
 .sort-ui, .filter-ui {
     margin-bottom: 1em;
 }
 
-#cards {
+.cards {
     margin: 0;
     padding: 0;
 }
 
-#card {
+.card .details .desc {
+    font-size: 18px;
+}
+
+.card {
     list-style: none;
     padding: 10px;
     margin-bottom: 0.5em;
@@ -134,28 +147,30 @@ h2 {
     clear: both;
 }
 
-#card img {
-    float: left;
+.card .details .name 
+.card .details .title{
+    float:right;
+    list-style: inline-block;
+}
+
+.card .details .img {
+    float:left;
     max-width: 150px;
     border-radius: 5px;
 }
 
-#card .details {
-    padding-left: 170px;
-}
-
-#card .name,
-#card .title,
-#card p {
+.card .name,
+.card .title,
+.card .desc {
     margin-top: 0;
     margin-bottom: 0.25em;
 }
 
-#card .title {
+.card .title {
     font-size: 150%;
 }
 
-#card  {
+.card  {
     font-size: 125%;
 }
 
