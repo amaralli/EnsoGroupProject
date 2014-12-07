@@ -12,6 +12,11 @@ body {
     background-color: #A89D89;
 }
 
+<<<<<<< HEAD
+#navigationBar {
+    color: #C3C7AD;
+
+=======
 #mainImage {
     padding: 1em;
 }
@@ -51,7 +56,12 @@ h2 {
         font-size: 18px;
     }
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> df60c03aa69192c7ea00ee04c057d45e69a81ce2
+>>>>>>> 68c5edfdc42ffd2b5bf69af95e943c05517d1883
 }
 
 /*navigation bar*/
