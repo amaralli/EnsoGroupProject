@@ -10,6 +10,7 @@ body {
 
 #header {
     background-color: #A89D89;
+    padding: .5em;
 }
 
 .mainImage {
@@ -80,6 +81,7 @@ h2 {
 
 .navbar-default {
     background-color: #B14052;
+    font-size: 20px;
     margin: 0;
 }
 
