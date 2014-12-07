@@ -12,13 +12,17 @@ body {
     background-color: #A89D89;
 }
 
-<<<<<<< HEAD
-#navigationBar {
-    color: #C3C7AD;
+.mainImage {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
 
-=======
-#mainImage {
-    padding: 1em;
+.mainImage .col-sm-12 {
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+    padding-bottom: 1em;
 }
 
 #welcome, #about-us, #age-requirement {
@@ -51,17 +55,17 @@ h2 {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 992px) {
     body {
         font-size: 18px;
     }
 
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> df60c03aa69192c7ea00ee04c057d45e69a81ce2
->>>>>>> 68c5edfdc42ffd2b5bf69af95e943c05517d1883
 }
 
 /*navigation bar*/
@@ -76,6 +80,7 @@ h2 {
 
 .navbar-default {
     background-color: #B14052;
+    margin: 0;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -90,6 +95,7 @@ h2 {
 .navbar-default > button {
     float: left;
 }
+
 /*end navigation bar*/
 
 
