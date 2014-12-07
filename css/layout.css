@@ -85,6 +85,11 @@ h2 {
 
 }
 
+#FAQ h4, #mission h4, #facility h4  {
+    font-weight:bold;
+}
+
+
 /*navigation bar*/
 .navbar-default .navbar-brand {
     color: #C3C7AD;
@@ -118,7 +123,7 @@ h2 {
 
 
 
-
+h4
 
 
 
