@@ -12,6 +12,11 @@ body {
     background-color: #A89D89;
 }
 
+#navigationBar {
+    color: #C3C7AD;
+
+}
+
 /*navigation bar*/
 .navbar-default .navbar-brand {
     color: #C3C7AD;
