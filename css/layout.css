@@ -26,10 +26,22 @@ body {
     padding-bottom: 1em;
 }
 
-#welcome, #about-us, #age-requirement {
+.contentMain {
     background-color: #8FB98B;
     border-radius: 20px;
     padding:1em;
+    margin: 1em;
+}
+
+.pictureContent {
+    background-color: #B14052;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.pictureContent .col-sm-3 {
+    margin: 5px;
 }
 
 a {
@@ -51,7 +63,7 @@ h2 {
 }
 
 @media screen and (max-width: 750px) {
-    #welcome {
+    .contentMain {
         margin: 1em;
     }
 }
