@@ -204,7 +204,9 @@ h4
     padding: 2em;
 }
 
-
+#enso-redmond .col-sm-4 {
+    margin:5px;
+}
 
 
 /*p {*/
