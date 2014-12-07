@@ -46,6 +46,10 @@
                         <li>
                             <a href="martialarts.html" target="_self">Martial Arts</a>
                         </li>
+<<<<<<< HEAD
+
+=======
+>>>>>>> b2edfa809f9345774319968d0a8d5e116ebe4d36
                         <li>
                             <a href="tuition.html" target="_self">Tuition</a>
                         </li>
@@ -59,6 +63,12 @@
             </nav>
         </div>
         <div id="content">
+<<<<<<< HEAD
+            <div class="row">
+                <div id= "mainImage" class="row">
+                    <div class="col-sm-12">
+                        <img src="images/about-enso-banner.jpg" height="100%" width="100%">
+=======
             <div class="row">    
                 <div id= "mainImage" class="row">
                     <div class="col-sm-12">
@@ -529,12 +539,37 @@
                         <button type="button" class="btn btn-default" ng-click="sortBy('lastName')" ng-class="{sorted: isSortedBy('lastName')}">Last Name</button>
                         <button type="button" class="btn btn-default" ng-click="sortBy('firstName')" ng-class="{sorted: isSortedBy('firstName')}">First Name</button>
                         <button type="button" class="btn btn-default" ng-click="sortBy('title')" ng-class="{sorted: isSortedBy('title')}">Position</button>
+>>>>>>> b2edfa809f9345774319968d0a8d5e116ebe4d36
                     </div>
                 </div>
-                <!--Filters the employees based off of what is typed in the search box-->
-                <div class="filter-ui">
-                    <input type="text" class="form-control" placeholder="Search..." ng-model="searchString">
+            </div>
+            <div class="row">
+                <div class="contentMain">
+                    <h2>About Us</h2>
+                    <p>Enso is an ancient, international symbol of inner strength, harmony, community, and peace. It symbolizes a commitment to personal growth through body and mind balance, discipline, and practice. Enso comes from the Japanese language and literally means an "open" circle.
+                    Enso Center has been teaching martial arts and international arts for 25+ years!</p>
+                    <p>Our mission is to promote awareness, understanding, and harmony internally, interpersonally, culturally, ecologically and ideologically.
+                    Enso Center encourages the growth of strong
+                    sustainable communities through the study of
+                    martial arts,nature,languages, literacy,
+                    communication, and fine arts.</p>
                 </div>
+<<<<<<< HEAD
+            </div>
+
+
+                <header class="page-title">
+                    <h1>Meet Our Employees</h1>
+                </header>
+                <section>
+                    <div class="sort-ui">
+                        <span>Sort By: </span>
+                        <div class="btn-group">
+
+                            <button type="button" class="btn btn-default" ng-click="sortBy('lastName')" ng-class="{sorted: isSortedBy('lastName')}">Last Name</button>
+                            <button type="button" class="btn btn-default" ng-click="sortBy('firstName')" ng-class="{sorted: isSortedBy('firstName')}">First Name</button>
+                            <button type="button" class="btn btn-default" ng-click="sortBy('title')" ng-class="{sorted: isSortedBy('title')}">Position</button>
+=======
             </section>
 
             <section>
@@ -549,10 +584,31 @@
                             <p class="desc" ng-if="employee.desc != undefined">
                                 {{employee.desc}}
                             </p>
+>>>>>>> b2edfa809f9345774319968d0a8d5e116ebe4d36
                         </div>
-                    </li>
-                </ul>
-            </section>      
+                    </div>
+                    <!--Filters the employees based off of what is typed in the search box-->
+                    <div class="filter-ui">
+                        <input type="text" class="form-control" placeholder="Search..." ng-model="searchString">
+                    </div>
+                </section>
+
+                <section>
+                    <ul class="cards" id="cards">
+                        <!--Creates a profile for each employee-->
+                        <li class="card" id="card" ng-repeat="employee in filteredEmployees = (employees | filter: searchString | orderBy : sortCol : sortReverse)">
+                            <img ng-src="{{employee.picUrl}}" alt="Picture of {{employee.firstName}} {{employee.lastName}}">
+                            <div class="details">
+                                <h2 class="name">{{employee.firstName}} {{employee.lastName}}</h2>
+                                <p class="title">{{employee.title}}</p>
+                                <!--creates a link for the email of employee if the employee has one-->
+                                <p class="desc" ng-if="employee.desc != undefined">
+                                    {{employee.desc}}
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
         </div>  
 
 
@@ -564,7 +620,10 @@
                         <tr>
                             <td><div class="style1" align="center">
                                 <p><a href="index.html" target="_self">Home</a> | <a href="aboutenso.html" target="_self">About Enso Center</a>  | <a href="tuition.html" target="_self">Tuition</a> | <a href="schedules.html" target="_self">Class Schedules</a><br />
+<<<<<<< HEAD
+=======
                                     Programs: <a href="martialarts.html" target="_self">Martial Arts</a> | <a href="otherarts.html" target="_self">Archery</a> | <a href="otherarts.html" target="_self">Summer Camps</a></p>
+>>>>>>> b2edfa809f9345774319968d0a8d5e116ebe4d36
                             </div></td>
                         </tr>
                         <tr>
