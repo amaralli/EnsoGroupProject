@@ -5,11 +5,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
     <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images_layout/enso175.gif">
+
 
 <body ng-app="AddressBook" ng-controller="AddressController" class="container-fluid">
         <div id="header" class="row">
             <div class="col-sm-6 text-left">
-                <img src="images_layout/ensocenterlogo.gif">
+                <img src="images_layout/ensocenterlogo.gif" alt="Enso Center logo">
             </div>
             <div class="col-sm-6 text-right">
                 <p><a href="mailto:contact@ensocenter.org">contact@ensocenter.org</a> |
@@ -59,7 +61,7 @@
             <div class="row">    
                 <div id= "mainImage" class="row">
                     <div class="col-sm-12">
-                        <img src="images/about-enso-banner.jpg" height="100%" width="100%">
+                        <img src="images/about-enso-banner.jpg" height="100%" width="100%" alt="painted cherry blossom background">
                     </div>
                 </div>
             </div>
@@ -102,7 +104,7 @@
                                             communication, and fine arts.
                                         </p>
                                         <h4>Internally</h4>
-                                        <p><img src="images_layout/about_enso01.jpg" alt="" align="right" height="87" hspace="10" vspace="10" width="125" /> Enso Center focuses on integrating internal
+                                        <p><img src="images_layout/about_enso01.jpg" alt="" align="right" height="87" hspace="10" vspace="10" width="125" alt="instructor posing"/> Enso Center focuses on integrating internal
                                             arts into daily practice and basic teaching curricula, building
                                             positive discipline lifestyles, and providing practical learning
                                             experiences. We aspire to balance body and mind through training and
@@ -183,42 +185,42 @@
                                           <!-- Wrapper for slides -->
                                           <div class="carousel-inner" align="center">
                                             <div class="item active">
-                                                <img src="images/facility/facilities00.jpg" alt="...">
+                                                <img src="images/facility/facilities00.jpg" alt="picture of Enso Center Redmond">
                                                 <div class="carousel-caption">
                                             </div>
                                             </div>
                                             <div class="item">
-                                                <img src="images/facility/facilities01.jpg" alt="...">
+                                                <img src="images/facility/facilities01.jpg" alt="Inside of Enso Center">
                                                 <div class="carousel-caption">
                                             </div>
                                             </div>
                                             <div class="item">
-                                                <img src="images/facility/facilities02.jpg" alt="...">
-                                                <div class="carousel-caption">
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <img src="images/facility/facilities03.jpg" alt="...">
+                                                <img src="images/facility/facilities02.jpg" alt="Mat room in Enso Center">
                                                 <div class="carousel-caption">
                                                 </div>
                                             </div>
                                             <div class="item">
-                                                <img src="images/facility/facilities04.jpg" alt="...">
+                                                <img src="images/facility/facilities03.jpg" alt="Another view of mat room">
                                                 <div class="carousel-caption">
                                                 </div>
                                             </div>
                                             <div class="item">
-                                                <img src="images/facility/facilities05.jpg" alt="...">
+                                                <img src="images/facility/facilities04.jpg" alt="Another matt room in Enso">
                                                 <div class="carousel-caption">
                                                 </div>
                                             </div>
                                             <div class="item">
-                                                <img src="images/facility/facilities06.jpg" alt="...">
+                                                <img src="images/facility/facilities05.jpg" alt="Picture of wooden upper deck">
                                                 <div class="carousel-caption">
                                                 </div>
                                             </div>
                                             <div class="item">
-                                                <img src="images/facility/facilities07.jpg" alt="...">
+                                                <img src="images/facility/facilities06.jpg" alt="Picture of relaxation room with tables and chairs">
+                                                <div class="carousel-caption">
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/facility/facilities07.jpg" alt="relaxation room from another angle with table and chairs">
                                                 <div class="carousel-caption">
                                                 </div>
                                             </div>
@@ -542,7 +544,7 @@
                     <!--Creates a profile for each employee-->
                     <li class="card" ng-repeat="employee in filteredEmployees = (employees | filter: searchString | orderBy : sortCol : sortReverse)"> 
                         <div class="details">
-                            <img ng-src="{{employee.picUrl}}" alt="Picture of {{employee.firstName}} {{employee.lastName}}">
+                            <img ng-src="{{employee.picUrl}}" alt="Picture of {{employee.firstName}} {{employee.lastName}}" alt="picture of employee">
                             <h2 class="name">{{employee.firstName}} {{employee.lastName}}</h2>
                             <p class="title">{{employee.title}}</p>
                             <!--creates a link for the email of employee if the employee has one-->
